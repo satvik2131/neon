@@ -26,6 +26,10 @@ For running the nextcloud server
 - Install [docker](https://www.docker.com/get-started)
 - Run the `./tool/dev.sh` file to start the server 
 
+For running a development Nextcloud instance: 
+- Install [docker](https://www.docker.com/get-started)
+- Run the `./tool/dev.sh` file to start the server 
+
 ## Picking an issue
 You may wish to start with our list of [good first issues](https://github.com/nextcloud/neon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
@@ -35,7 +39,7 @@ To sign off your commits use `git commit --signoff`.
 To setup commit signing please consult the [Github documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 We use conventional commits to have meaningful commit messages and be able to generate changelogs.
 A non-breaking feature contribution to `neon_notes` could look like this:
-```bash
+```bash 
 git commit -m "feat(neon_notes): Add a super cool feature."
 ```
 You can read the full documentation at https://www.conventionalcommits.org.
